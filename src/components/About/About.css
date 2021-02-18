@@ -1,0 +1,109 @@
+.About {
+    background-color: rgb(243, 253, 223);
+    height: 600px;
+    z-index: 1;
+}
+
+.about-title {
+    color: rgb(71, 114, 88);
+    font-size: 20px;
+    font-weight: 400;
+    font-weight: 10;
+    letter-spacing: 1px;
+    line-height: 36px;
+    margin-left: 136.797px;
+    margin-top: 140px;
+    margin-bottom: 90px;
+    -webkit-font-smoothing: antialiased;
+    z-index: 3;
+    position: absolute;
+}
+
+.about-background-element {
+    background-color: rgb(255, 239, 210);
+    display: block;
+    height: 360px;
+    position: absolute;
+    width: auto;
+    left: 120px;
+    right: 0px;
+    z-index: 2;
+    top: 860px;
+}
+
+.about-element {
+    text-align: right;
+    display: block;
+    margin-right: 120px;
+}
+
+.about-element h2 {
+    color: rgb(17, 17, 17);
+    font-family: "OptimaLTPro-Roman", "Ryumin Regular KL", serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    line-height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 130px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.about-element h3 {
+    color: rgb(17, 17, 17);
+    font-family: "Crimson Text";
+    font-size: 10px;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 80px;
+    right: 130px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.about-element p {
+    color: rgb(17, 17, 17);
+    font-family: "Ryumin Regular KL", "Crimson Text";
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    width: 200px;
+    position: absolute;
+    top: 110px;
+    right: 130px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.about-image {
+    color: white;
+    background-color: rgb(170, 170, 170);
+    letter-spacing: 4px;
+    display: block;
+    height: 120px;
+    position: absolute;
+    width: 80px;
+    right: 400px;
+    z-index: 3;
+    text-align: right;
+    top: 110px;
+}
+
+.about-link-to-person {
+    color: rgb(29, 100, 102);;
+    font-size: 20px;
+    font-weight: 400;
+    font-weight: 10;
+    letter-spacing: 1px;
+    line-height: 36px;
+    -webkit-font-smoothing: antialiased;
+    z-index: 3;
+    position: absolute;
+    text-align: right;
+    right: 80px;
+    cursor: pointer;
+    top: 338px;
+}
+
+.about-link-to-person span {
+    font-size: 12px;
+    padding-right: 5px;
+}

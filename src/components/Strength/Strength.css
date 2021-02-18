@@ -1,0 +1,16 @@
+.Strength {
+    background-color: rgb(153, 206, 187);
+    height: 700px;
+}
+
+.strength-title {
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    font-weight: 400;
+    font-weight: 10;
+    letter-spacing: 1px;
+    line-height: 36px;
+    padding-top: 100px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
