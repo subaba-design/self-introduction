@@ -1,0 +1,15 @@
+.Thanks {
+    height: 780px;
+}
+
+.thanks-image {
+    background-color: darkblue;
+    height: 700px;
+    margin-top: 80px;
+}
+
+.thanks-message {
+    color: white;
+    text-align: center;
+    line-height: 700px;
+}

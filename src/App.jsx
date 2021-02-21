@@ -4,6 +4,9 @@ import About from "./components/About/About";
 import Passion from "./components/Passion/Passion";
 import Strength from "./components/Strength/Strength";
 import Contact from "./components/Contact/Contact";
+import Thanks from "./components/Thanks/Thanks";
+import Footer from "./components/Footer/Footer";
+import Private from "./components/Private/Private";
 import './App.css';
 
 function App() {
@@ -14,6 +17,9 @@ function App() {
       <Passion />
       <Strength />
       <Contact />
+      <Thanks />
+      <Footer />
+      <Private />
     </div>
   );
 }

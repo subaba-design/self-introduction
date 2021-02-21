@@ -1,0 +1,42 @@
+.Footer {
+    background-color: thistle;
+    height: 80px;
+}
+
+.footer-logo {
+    color: rgb(71, 114, 88);
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    padding-top: 18px;
+    margin-left: 50px;
+    -webkit-font-smoothing: antialiased;
+    width: 200px;
+}
+
+.footer-nav {
+    color: rgb(17, 17, 17);
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    line-height: 25.2px;
+    text-align: right;
+    position: absolute;
+    right: 0px;
+    margin-top: -25px;
+}
+
+.footer-list {
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.footer-list li {
+    display: inline-block;
+    margin-right: 67px;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+}
