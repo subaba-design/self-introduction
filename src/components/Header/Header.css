@@ -1,6 +1,6 @@
 .Header {
     background-color: thistle;
-    height: 700px;
+    height: 820px;
 }
 
 .header-logo {
@@ -86,5 +86,5 @@
     width: 1px;
     -webkit-font-smoothing: antialiased;
     writing-mode: vertical-rl;
-    top: 620px;
+    top: 720px;
 }
