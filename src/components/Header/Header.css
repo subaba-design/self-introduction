@@ -1,10 +1,11 @@
-.Header {
-    background-color: thistle;
-    height: 820px;
+.header-background {
+    height: 822px;
+    width: 1440px;
+    z-index: 1;
 }
 
 .header-logo {
-    color: rgb(71, 114, 88);
+    color: cyan;
     cursor: pointer;
     font-family: sans-serif;
     font-size: 20px;
@@ -12,21 +13,26 @@
     letter-spacing: 1.4px;
     line-height: 20px;
     margin-left: 50px;
-    padding-top: 50px;
+    top: 50px;
     -webkit-font-smoothing: antialiased;
+    position: absolute;
+    z-index: 2;
 }
 
 .header-title {
-    color: rgb(17, 17, 17);
+    /* color: hsl(184, 100%, 37%); */
+    color: cyan;
     font-size: 28px;
-    font-weight: 400;
-    font-weight: 10;
-    letter-spacing: 1.4px;
+    font-weight: 900;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 4px;
     line-height: 42px;
-    margin-left: 136.797px;
-    margin-top: 90px;
+    margin-left: 200px;
+    top: 200px;
     margin-bottom: 90px;
-    -webkit-font-smoothing: antialiased;
+    /* -webkit-font-smoothing: antialiased; */
+    position: absolute;
+    z-index: 2;
 }
 
 .header-nav {
@@ -38,6 +44,10 @@
     line-height: 25.2px;
     text-align: right;
     height: 58px;
+    position: absolute;
+    z-index: 2;
+    right: 0px;
+    top: 400px;
 }
 
 .header-list {
@@ -61,30 +71,34 @@
     line-height: 25.2px;
     padding-left: 0;
     -webkit-font-smoothing: antialiased;
-    
+    position: absolute;
+    z-index: 2;
+    top: 480px;
+    text-align: right;
+    right: 0px;
 }
 
 .header-link-list li {
     display: inline-block;
-    margin-left: 67px;
+    margin-right: 50px;
     cursor: pointer;
     padding-top: 60px;
 }
 
 .scroll-line {
-    color: rgb(17, 17, 17);
+    color: cyan;
     font-weight: 400;
     font-size: 11px;
     letter-spacing: 1.4px;
     display: block;
-    height: 70px;
+    height: 100px;
     bottom: 70px;
     line-height: 19.8px;
     position: absolute;
     text-align: left;
-    right: 70px;
+    right: 80px;
     width: 1px;
     -webkit-font-smoothing: antialiased;
     writing-mode: vertical-rl;
-    top: 720px;
+    top: 700px;
 }

@@ -1,23 +1,28 @@
 .Passion {
-    background-color: rgb(255, 174, 143);
+    background-color: rgb(216, 19, 68);
     height: 700px;
 }
 
+.passion-background {
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+
 .passion-title {
-    color: white;
+    color: rgb(30, 255, 0);
     font-size: 20px;
-    font-weight: 400;
-    font-weight: 10;
-    letter-spacing: 1px;
+    font-weight: 900;
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 3px;
     line-height: 36px;
     margin-left: 300px;
     padding-top: 100px;
     margin-bottom: 50px;
-    -webkit-font-smoothing: antialiased;
 }
 
 .passion-text {
-    color: rgb(17, 17, 17);
+    color: rgb(30, 255, 0);
     /* font-family: "YakuHanJP_Noto", "Noto Sans JP", sans-serif; */
     font-size: 12px;
     font-weight: 500;
@@ -41,15 +46,16 @@
     height: 160px;
     position: absolute;
     width: 160px;
-    right: 100px;
+    right: 200px;
     /* right: 400px; */
     /* z-index: 3; */
     text-align: right;
-    top: 1750px;
+    margin-right: 200px;
+    margin-top: -80px;
     /* top: 110px; */
 }
 
-.passion-image-2 {
+/* .passion-image-2 {
     color: white;
     background-color: rgb(170, 170, 170);
     line-height: 23px;
@@ -58,13 +64,13 @@
     height: 160px;
     position: absolute;
     width: 160px;
-    right: 300px;
-    top: 1750px;
+    right: 360px;
+    margin-top: 70px;
     /* right: 400px; */
     /* z-index: 3; */
-    text-align: right;
+    /* text-align: right; */
     /* top: 110px; */
-}
+/* }
 
 .passion-image-3 {
     color: white;
@@ -75,10 +81,14 @@
     height: 160px;
     position: absolute;
     width: 160px;
-    right: 500px;
-    top: 1750px;
+    right: 620px;
+    margin-top: 70px;
     /* right: 400px; */
     /* z-index: 3; */
-    text-align: right;
-    /* top: 110px; */
-}
+    /* text-align: right;
+    top: 110px; */
+/* } */ 
+
+/* .passion-papers {
+    margin-right: 80px;
+    margin-top: 30px; */
