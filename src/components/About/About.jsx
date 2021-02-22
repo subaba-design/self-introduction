@@ -1,35 +1,28 @@
-import React from "react";
-import "./About.css";
-import Background from "../../images/pexels-pixabay-47349.jpg";
-import { makeStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
-import Image from "../../images/S__30769154.jpg";
+import React           from "react";
+import { makeStyles }  from '@material-ui/core/styles';
+import Button          from '@material-ui/core/Button';
+import BackgroundImage from "../../images/pexels-pixabay-47349.jpg";
+import Image           from "../../images/S__30769154.jpg";
+import                      "./About.css";
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-      '& > *': {
-        color: 'deeppink',
-        borderColor: 'deeppink',
-        marginTop: -375
-      },
-    },
-    second: {
-        '& > *': {
-          margin: theme.spacing(1),
-          color: 'deeppink',
-          borderColor: 'deeppink'
-        },
-      },
-  }));
+const useStyles = makeStyles(() => ({
+  root: {
+    '& > *': {
+      color: 'deeppink',
+      borderColor: 'deeppink',
+      marginTop: -375
+    }
+  }
+}));
 
 const About = () => {
     const classes = useStyles();
 
     return (
         <div className="About">
-            <img src={ Background } className="about-background"/>
+            <img src={ BackgroundImage } className="about-background"/>
             <h1 className="about-title">About</h1>
-            <div className="about-background-element">
+            <div className="about-content">
                 <div className="about-element">
                     <h2>深居 昌哉</h2>
                     <h3>Masaya Fukai</h3>
@@ -40,8 +33,12 @@ const About = () => {
                         2020年12月にプログラミングの世界を知る。
                     </p>
                     <img src={ Image } className="about-image"/>
-                    <div className="about-link-to-person"><span className="about-link-to-person-sub-title">more...</span>
-                    <p className={classes.root}><Button variant="outlined">Person</Button></p></div>
+                    <div className="about-link-to-person">
+                      <span className="about-link-to-person-sub-title">more...</span>
+                      <p className={ classes.root }>
+                        <Button variant="outlined">Person</Button>
+                      </p>
+                    </div>
                 </div>
             </div>
         </div>

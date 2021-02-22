@@ -1,11 +1,11 @@
 .About {
     background-color: white;
-    height: 706px;
+    height: 700px;
     z-index: 1;
 }
 
 .about-background {
-    height: 700px;
+    height: 711px;
     width: 1440px;
     z-index: 1;
 }
@@ -15,101 +15,89 @@
     font-size: 30px;
     font-weight: 900;
     letter-spacing: 3px;
-    font-family: 'Noto Sans JP', sans-serif;
     line-height: 36px;
-    margin-left: 136.797px;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
     margin-top: -620px;
     margin-bottom: 90px;
+    margin-left: 136.797px;
     z-index: 3;
-    position: absolute;
 }
 
-.about-background-element {
-    background-color: rgba(255, 255, 255, 0.952);
+.about-content {
     display: block;
-    height: 500px;
+    background-color: rgba(255, 255, 255, 0.952);
     position: absolute;
+    height: 500px;
     width: auto;
     left: 0px;
     right: 0px;
-    z-index: 2;
     margin-top: -600px;
+    z-index: 2;
 }
 
 .about-element {
-    text-align: right;
     display: block;
+    text-align: right;
+    color: deeppink;
+    -webkit-font-smoothing: antialiased;
     margin-right: 120px;
 }
 
 .about-element h2 {
-    color: deeppink;
-    font-family: "OptimaLTPro-Roman", "Ryumin Regular KL", serif;
-    letter-spacing: 4px;
     font-size: 25px;
+    letter-spacing: 4px;
     line-height: 30px;
+    font-family: "OptimaLTPro-Roman", "Ryumin Regular KL", serif;
     position: absolute;
     top: 110px;
     right: 130px;
-    -webkit-font-smoothing: antialiased;
 }
 
 .about-element h3 {
-    color: deeppink;
-    font-family: "Crimson Text";
     font-size: 12px;
     letter-spacing: 1px;
+    font-family: "Crimson Text";
     position: absolute;
     top: 165px;
     right: 130px;
-    -webkit-font-smoothing: antialiased;
 }
 
 .about-element p {
-    color: deeppink;
-    font-family: "Ryumin Regular KL", "Crimson Text";
     font-size: 13px;
     letter-spacing: 1px;
     line-height: 22px;
-    width: 230px;
+    font-family: "Ryumin Regular KL", "Crimson Text";
     position: absolute;
+    width: 230px;
     top: 200px;
     right: 130px;
-    -webkit-font-smoothing: antialiased;
 }
 
 .about-image {
-    color: white;
-    background-color: rgb(170, 170, 170);
-    letter-spacing: 4px;
     display: block;
-    height: 130px;
     position: absolute;
+    text-align: right;
+    height: 130px;
     width: auto;
+    top: 180px;
     right: 450px;
     z-index: 3;
-    text-align: right;
-    top: 180px;
 }
 
 .about-link-to-person {
-    color: deeppink;
+    text-align: right;
     font-size: 20px;
     font-weight: 400;
-    font-weight: 10;
     letter-spacing: 1px;
     line-height: 36px;
-    -webkit-font-smoothing: antialiased;
-    z-index: 3;
     position: absolute;
-    text-align: right;
     right: 0px;
-    cursor: pointer;
     top: 380px;
+    z-index: 3;
 }
 
 .about-link-to-person-sub-title {
     font-size: 12px;
     margin-right: 300px;
-    top: 0px;
 }

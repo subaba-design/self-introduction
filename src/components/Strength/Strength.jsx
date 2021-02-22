@@ -1,30 +1,28 @@
-import React from "react";
-import "./Strength.css";
-import Image1 from "../../images/pexels-ave-calvar-martinez-4705134.jpg";
-import Image2 from "../../images/pexels-ave-calvar-martinez-4705134-2.jpg";
-import Image3 from "../../images/pexels-ave-calvar-martinez-4705134-3.jpg";
-import DirectionsBikeIcon from '@material-ui/icons/DirectionsBike';
-import ColorLensIcon from '@material-ui/icons/ColorLens';
+import React                    from "react";
+import { makeStyles }           from '@material-ui/core/styles';
+import DirectionsBikeIcon       from '@material-ui/icons/DirectionsBike';
+import ColorLensIcon            from '@material-ui/icons/ColorLens';
 import FitnessCenterRoundedIcon from '@material-ui/icons/FitnessCenterRounded';
-import { makeStyles } from '@material-ui/core/styles';
+import Image1                   from "../../images/pexels-ave-calvar-martinez-4705134.jpg";
+import Image2                   from "../../images/pexels-ave-calvar-martinez-4705134-2.jpg";
+import Image3                   from "../../images/pexels-ave-calvar-martinez-4705134-3.jpg";
+import                               "./Strength.css";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     root: {
-      color: 'cyan',
-      display: 'block',
-      position: 'absolute',
-      marginleft: 61,
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      textAlign: 'center',
-      marginBlockEnd: 55,
-      marginBottom: 70,
-      marginInlineEnd: 61,
-      marginInlineStart: 61,
-      marginRight: 61,
-      width: 200,
-      marginTop: 35
+        display: 'flex',
+        color: 'cyan',
+        position: 'absolute',
+        justifyContent: 'center',
+        width: 200,
+        marginTop: 35,
+        marginleft: 61,
+        marginRight: 61,
+        marginBlockEnd: 61,
+        marginBottom: 61,
+        marginInlineEnd: 61,
+        marginInlineStart: 61,
+        fontSize: 120
     },
 }));
 
@@ -33,17 +31,16 @@ const Strength = () => {
 
     return (
         <div className="Strength">
-            
-            
-            
             <h1 className="strength-title">Strength</h1>
             <ul className="strength-sec-list">
-                <li className="strength-list01">
+                <li className="strength-list">
                     <div className="strength-list-ttl-area">
-                        <span className={classes.root}><DirectionsBikeIcon style={{ fontSize: 120 }} /></span>
+                        <span className={ classes.root }>
+                            <DirectionsBikeIcon style={{ fontSize: 120 }} />
+                        </span>
                         <img src={ Image1 } className="strength-list-ttl-img"/>
-                        <p className="strength-list-ttl-eng">自走力</p>
-                        <p className="strength-list-ttl-jpn">Self-management</p>
+                        <p className="strength-list-ttl-jpn">自走力</p>
+                        <p className="strength-list-ttl-eng">Self-management</p>
                     </div>
                     <div className="strength-sec-lead-area">
                         <p>何もない状態から何かを達成するためには、
@@ -56,12 +53,14 @@ const Strength = () => {
                         </p>
                     </div>
                 </li>
-                <li className="strength-list02">
+                <li className="strength-list">
                     <div className="strength-list-ttl-area">
-                        <span className={classes.root}><ColorLensIcon style={{ fontSize: 120 }} /></span>
+                        <span className={ classes.root }>
+                            <ColorLensIcon style={{ fontSize: 120 }} />
+                        </span>
                         <img src={ Image2 } className="strength-list-ttl-img"/>
-                        <p className="strength-list-ttl-eng">デザイン力</p>
-                        <p className="strength-list-ttl-jpn">Design</p>
+                        <p className="strength-list-ttl-jpn">デザイン力</p>
+                        <p className="strength-list-ttl-eng">Design</p>
                     </div>
                     <div className="strength-sec-lead-area">
                         <p>芸大の大学受験のために、1年の浪人を含み2年間画塾に通っていました。
@@ -72,12 +71,14 @@ const Strength = () => {
                         </p>
                     </div>
                 </li>
-                <li className="strength-list03">
+                <li className="strength-list">
                     <div className="strength-list-ttl-area">
-                        <span className={classes.root}><FitnessCenterRoundedIcon style={{ fontSize: 120 }} /></span>
+                        <span className={ classes.root }>
+                            <FitnessCenterRoundedIcon style={{ fontSize: 120 }} />
+                        </span>
                         <img src={ Image3 } className="strength-list-ttl-img"/>
-                        <p className="strength-list-ttl-eng">根気強さ</p>
-                        <p className="strength-list-ttl-jpn">Perseverance</p>
+                        <p className="strength-list-ttl-jpn">根気強さ</p>
+                        <p className="strength-list-ttl-eng">Perseverance</p>
                     </div>
                     <div className="strength-sec-lead-area">
                         <p>高校の３年間は合気道部に所属し、主将兼部長を務めていました。

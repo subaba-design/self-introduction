@@ -16,27 +16,21 @@
     line-height: 80px;
 }
 
-.footer-nav {
-    color: rgb(17, 17, 17);
+.footer-nav-list {
+    list-style: none;
     display: block;
-    font-weight: 400;
     font-size: 14px;
+    font-weight: 400;
     letter-spacing: 1.4px;
     line-height: 80px;
-    text-align: right;
+    -webkit-font-smoothing: antialiased;
     position: absolute;
+    text-align: right;
     right: 0px;
-    margin-top: -95px;
+    margin-top: -93px;
 }
 
-.footer-list {
-    list-style: none;
-    margin-bottom: 0px;
-}
-
-.footer-list li {
+.footer-nav-list li {
     display: inline-block;
     margin-right: 20px;
-    cursor: pointer;
-    -webkit-font-smoothing: antialiased;
 }

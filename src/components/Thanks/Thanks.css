@@ -1,22 +1,22 @@
 .Thanks {
-    height: 860px;
+    height: 850px;
 }
 
-.thanks-image img {
+.thanks-content img {
     height: 700px;
     width: 1440px;
     margin-top: 80px;
     z-index: 1;
 }
 
-.thanks-message {
-    color: white;
+.thanks-content h1 {
     text-align: center;
-    line-height: 700px;
-    margin-top: -700px;
-    z-index: 2;
+    color: white;
     font-size: 28px;
     font-weight: 900;
-    font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 3px;
+    line-height: 700px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: -700px;
+    z-index: 2;
 }

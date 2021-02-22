@@ -1,12 +1,11 @@
-import React from "react";
-import Header from "./components/Header/Header";
-import About from "./components/About/About";
-import Passion from "./components/Passion/Passion";
+import React    from "react";
+import Header   from "./components/Header/Header";
+import About    from "./components/About/About";
+import Passion  from "./components/Passion/Passion";
 import Strength from "./components/Strength/Strength";
-import Contact from "./components/Contact/Contact";
-import Thanks from "./components/Thanks/Thanks";
-import Footer from "./components/Footer/Footer";
-import './App.css';
+import Contact  from "./components/Contact/Contact";
+import Thanks   from "./components/Thanks/Thanks";
+import Footer   from "./components/Footer/Footer";
 
 function App() {
   return (
