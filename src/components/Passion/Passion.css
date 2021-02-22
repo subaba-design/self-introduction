@@ -6,7 +6,8 @@
 .passion-background {
     height: 300px;
     width: auto;
-    border-radius: 10px;
+    border-radius: 15px;
+    z-index: 1;
 }
 
 .passion-title {
@@ -43,10 +44,10 @@
     line-height: 23px;
     letter-spacing: 5px;
     display: inline-block;
-    height: 160px;
+    height: 300px;
     position: absolute;
-    width: 160px;
-    right: 200px;
+    width: 200px;
+    right: 150px;
     /* right: 400px; */
     /* z-index: 3; */
     text-align: right;
@@ -54,41 +55,3 @@
     margin-top: -90px;
     /* top: 110px; */
 }
-
-/* .passion-image-2 {
-    color: white;
-    background-color: rgb(170, 170, 170);
-    line-height: 23px;
-    letter-spacing: 5px;
-    display: inline-block;
-    height: 160px;
-    position: absolute;
-    width: 160px;
-    right: 360px;
-    margin-top: 70px;
-    /* right: 400px; */
-    /* z-index: 3; */
-    /* text-align: right; */
-    /* top: 110px; */
-/* }
-
-.passion-image-3 {
-    color: white;
-    background-color: rgb(170, 170, 170);
-    line-height: 23px;
-    letter-spacing: 5px;
-    display: inline-block;
-    height: 160px;
-    position: absolute;
-    width: 160px;
-    right: 620px;
-    margin-top: 70px;
-    /* right: 400px; */
-    /* z-index: 3; */
-    /* text-align: right;
-    top: 110px; */
-/* } */ 
-
-/* .passion-papers {
-    margin-right: 80px;
-    margin-top: 30px; */

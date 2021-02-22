@@ -27,7 +27,7 @@ const Footer = () => {
         <div className="Footer">
             <h1 className="footer-logo">Against All Odds</h1>
             <nav className="footer-nav">
-            <ul className="header-list">
+                <ul className="footer-list">
                     <li className={classes.root}>
                         <Button variant="outlined">
                             Home

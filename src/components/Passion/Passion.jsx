@@ -31,12 +31,9 @@ const Passion = () => {
             一度芸術大学を志望して挫折してしまいましたが、２年間絵というクリエイティブと戦い続けた経験と、
             新しく知ったプログラミングという世界への情熱を、貴社に貢献という形でぶつけたいと思っています。
             </p>
-            <div className="passion-image-1"><img className="passion-background" src={ Background } /></div>
-            {/* <div className={classes.root}>
-                <Paper elevation={5} />
-                <Paper elevation={5} />
-                <Paper elevation={5} />
-            </div> */}
+            <div className="passion-image-1">
+                <img className="passion-background" src={ Background } />
+            </div>
         </div>
     );
 }

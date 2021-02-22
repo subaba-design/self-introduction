@@ -1,5 +1,5 @@
 .Strength {
-    background-color: rgb(62, 73, 45);
+    background-color: rgb(43, 51, 30);
     height: 1000px;
 }
 
@@ -89,7 +89,7 @@
 .strength-list-ttl-eng {
     text-align: center;
     width: 322px;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 22.4px;
     margin-bottom: 10px;
 }
