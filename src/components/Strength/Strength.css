@@ -1,23 +1,22 @@
 .Strength {
-    background-color: rgb(153, 206, 187);
+    background-color: rgb(62, 73, 45);
     height: 1000px;
 }
 
 .strength-title {
-    color: rgb(17, 17, 17);
-    font-size: 20px;
-    font-weight: 400;
-    font-weight: 10;
-    letter-spacing: 1px;
+    color: cyan;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 3px;
     line-height: 36px;
     padding-top: 100px;
     text-align: center;
     margin-bottom: 60px;
-    -webkit-font-smoothing: antialiased;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .strength-sec-list {
-    color: rgb(17, 17, 17);
+    color: cyan;
     display: flex;
     -webkit-font-smoothing: antialiased;
     font-size: 14px;
@@ -52,6 +51,24 @@
     min-height: 370px;
 }
 
+.strength-list-ttl-img {
+    display: block;
+    height: 200px;
+    border-radius: 100px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-block-end: 55px;
+    margin-bottom: 70px;
+    margin-inline-end: 61px;
+    margin-inline-start: 61px;
+    margin-left: 61px;
+    margin-right: 61px;
+    width: 200px;
+    margin-top: 18px;
+}
+
 .strength-list-icon-side {
     align-items: center;
     text-align: center;
@@ -65,7 +82,7 @@
     margin-left: 61px;
     margin-right: 61px;
     width: 200px;
-    background-color: mistyrose;
+    background-color: cyan;
     border-radius: 100px;
 }
 

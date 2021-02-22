@@ -11,12 +11,12 @@
 
 .passion-title {
     color: rgb(30, 255, 0);
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 900;
     font-family: 'Noto Sans JP', sans-serif;
     letter-spacing: 3px;
     line-height: 36px;
-    margin-left: 300px;
+    margin-left: 340px;
     padding-top: 100px;
     margin-bottom: 50px;
 }
@@ -24,7 +24,7 @@
 .passion-text {
     color: rgb(30, 255, 0);
     /* font-family: "YakuHanJP_Noto", "Noto Sans JP", sans-serif; */
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 500;
     letter-spacing: 1px;
     line-height: 30px;
@@ -34,7 +34,7 @@
     right: 130px; */
     -webkit-font-smoothing: antialiased;
     display: block;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .passion-image-1 {
@@ -50,8 +50,8 @@
     /* right: 400px; */
     /* z-index: 3; */
     text-align: right;
-    margin-right: 200px;
-    margin-top: -80px;
+    margin-right: 250px;
+    margin-top: -90px;
     /* top: 110px; */
 }
 

@@ -1,5 +1,8 @@
 import React from "react";
 import "./Strength.css";
+import Image1 from "../../images/pexels-ave-calvar-martinez-4705134.jpg";
+import Image2 from "../../images/pexels-ave-calvar-martinez-4705134-2.jpg";
+import Image3 from "../../images/pexels-ave-calvar-martinez-4705134-3.jpg";
 
 const Strength = () => {
     return (
@@ -8,7 +11,7 @@ const Strength = () => {
             <ul className="strength-sec-list">
                 <li className="strength-list01">
                     <div className="strength-list-ttl-area">
-                        <p className="strength-list-icon-side">ICON</p>
+                        <img src={ Image1 } className="strength-list-ttl-img"/>
                         <p className="strength-list-ttl-eng">自走力</p>
                         <p className="strength-list-ttl-jpn">Self-management</p>
                     </div>
@@ -25,7 +28,7 @@ const Strength = () => {
                 </li>
                 <li className="strength-list02">
                     <div className="strength-list-ttl-area">
-                        <p className="strength-list-icon-side">ICON</p>
+                    <img src={ Image2 } className="strength-list-ttl-img"/>
                         <p className="strength-list-ttl-eng">デザイン力</p>
                         <p className="strength-list-ttl-jpn">Design</p>
                     </div>
@@ -40,7 +43,7 @@ const Strength = () => {
                 </li>
                 <li className="strength-list03">
                     <div className="strength-list-ttl-area">
-                        <p className="strength-list-icon-side">ICON</p>
+                    <img src={ Image3 } className="strength-list-ttl-img"/>
                         <p className="strength-list-ttl-eng">根気強さ</p>
                         <p className="strength-list-ttl-jpn">Perseverance</p>
                     </div>
