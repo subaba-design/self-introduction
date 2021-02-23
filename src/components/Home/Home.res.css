@@ -15,9 +15,6 @@
     .home-link-list {
         margin-top: 100px;
     }
-    .home-scroll-line {
-        top: 780px;
-    }
 
 }
 
@@ -54,12 +51,6 @@
 
     .home-link-list {
         display: none;
-    }
-
-    .header-scroll-line {
-        top: 540px;
-        left: 60px;
-        text-orientation: upleft;
     }
 
 }

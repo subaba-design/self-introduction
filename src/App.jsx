@@ -4,10 +4,12 @@ import About    from "./components/About/About";
 import Passion  from "./components/Passion/Passion";
 import Strength from "./components/Strength/Strength";
 import Contact  from "./components/Contact/Contact";
-import Thanks   from "./components/Thanks/Thanks";
-import Footer   from "./components/Footer/Footer";
 // import Header from "./components/Header/Header";
 // import MyComponent from "./components/MyComponent";
+import { 
+  HashRouter as Router,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
@@ -15,13 +17,13 @@ function App() {
       {/* <MyComponent>
         <Header />  
       </MyComponent> */}
-      <Home />
-      <About />
-      <Passion />
-      <Strength />
-      <Contact />
-      <Thanks />
-      <Footer />
+      <Router>
+        <Route path="/" exact component={ Home } />
+        <Route path="/about" exact component={ About } />
+        <Route path="/passion" exact component={ Passion } />
+        <Route path="/strength" exact component={ Strength } />
+        <Route path="/contact" exact component={ Contact } />
+      </Router>
     </div>
   );
 }

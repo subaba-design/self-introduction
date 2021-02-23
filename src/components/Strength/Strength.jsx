@@ -1,5 +1,6 @@
 import React                    from "react";
 import { makeStyles }           from '@material-ui/core/styles';
+import Button                   from '@material-ui/core/Button';
 import DirectionsBikeIcon       from '@material-ui/icons/DirectionsBike';
 import ColorLensIcon            from '@material-ui/icons/ColorLens';
 import FitnessCenterRoundedIcon from '@material-ui/icons/FitnessCenterRounded';
@@ -19,9 +20,22 @@ const useStyles = makeStyles(() => ({
         marginleft: 'auto',
         marginRight: 'auto',
     },
+    button: {
+        '& > *': {
+            color: 'cyan',
+            borderColor: 'cyan',
+            marginTop: 80,
+            marginBottom: 80,
+            right: 'auto',
+            left: 'auto',
+            width: 100,
+            marginRight: 'auto'
+
+        }
+      }
 }));
 
-const Strength = () => {
+const Strength = (props) => {
     const classes = useStyles();
 
     return (
@@ -85,6 +99,13 @@ const Strength = () => {
                     </div>
                 </div>
             </div>
+            <span className="strength-button">
+                <div className={ classes.button }>
+                    <Button variant="outlined" onClick={() => {
+                        props.history.push('contact')
+                    }}>Contact</Button>
+                </div>
+            </span>
         </div>
     );
 }

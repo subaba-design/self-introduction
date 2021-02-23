@@ -1,8 +1,9 @@
 .Passion {
     background-color: rgb(216, 19, 68);
     color: rgb(30, 255, 0);
-    height: 700px;
-    margin-bottom: -20px;
+    height: 825px;
+    /* margin-bottom: -20px; */
+    margin-top: -20px;
 }
 
 .passion-title {
@@ -13,7 +14,7 @@
     font-family: 'Noto Sans JP', sans-serif;
     margin-left: 340px;
     margin-bottom: 50px;
-    padding-top: 100px;
+    padding-top: 160px;
 }
 
 .passion-text {
@@ -32,7 +33,16 @@
     position: absolute;
     height: 300px;
     width: auto;
-    right: 150px;
-    margin-top: -90px;
+    right: 220px;
+    top: 400px;
     z-index: 1;
+}
+
+.passion-link-sub-title {
+    font-size: 12px;
+    letter-spacing: 5px;
+    position: absolute;
+    right: 250px;
+    top: 340px;
+    z-index: 3;
 }

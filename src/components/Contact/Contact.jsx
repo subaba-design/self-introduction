@@ -29,26 +29,34 @@ const Contact = () => {
                 </div>
                 <h2 className="contact-sub-title">and more info...</h2>
                 <ul className="contact-link-list">
-                    <li className={ classes.root }>
-                        <Button>
-                            Twitter
-                        </Button>
-                    </li>
-                    <li className={ classes.root }>
-                        <Button>
-                            Blog
-                        </Button>
-                    </li>
-                    <li className={ classes.root }>
-                        <Button>
-                            Qiita
-                        </Button>
-                    </li>
-                    <li className={ classes.root }>
-                        <Button>
-                            GitHub
-                        </Button>
-                    </li>
+                    <a href="https://twitter.com/yopipo415">
+                        <li className={ classes.root }>
+                            <Button>
+                                Twitter
+                            </Button>
+                        </li>
+                    </a>
+                    <a href="https://let-there-be-magic.com/">
+                        <li className={ classes.root }>
+                            <Button>
+                                Blog
+                            </Button>
+                        </li>
+                    </a>
+                    <a href="https://qiita.com/Yopipo415">
+                        <li className={ classes.root }>
+                            <Button>
+                                Qiita
+                            </Button>
+                        </li>
+                    </a>
+                    <a href="https://github.com/Yopipo415">
+                        <li className={ classes.root }>
+                            <Button>
+                                GitHub
+                            </Button>
+                        </li>
+                    </a>
                 </ul>
             </div>
         </div>

@@ -16,7 +16,7 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
-const About = () => {
+const About = (props) => {
     const classes = useStyles();
 
     return (
@@ -35,9 +35,11 @@ const About = () => {
                     </p>
                     <img src={ Image } className="about-image"/>
                     <div className="about-link-to-person">
-                      <span className="about-link-to-person-sub-title">more...</span>
+                      <span className="about-link-to-person-sub-title">next...</span>
                       <p className={ classes.root }>
-                        <Button variant="outlined">Person</Button>
+                        <Button variant="outlined" onClick={() => {
+                          props.history.push('passion')
+                        }}>Passion</Button>
                       </p>
                     </div>
                 </div>

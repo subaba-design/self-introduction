@@ -4,6 +4,7 @@
 
 .Strength {
     background-color: rgb(43, 51, 30);
+    margin-top: -19px;
 }
 
 .strength-title {
@@ -14,8 +15,8 @@
     letter-spacing: 3px;
     line-height: 36px;
     font-family: 'Noto Sans JP', sans-serif;
-    margin-bottom: 60px;
-    padding-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 200px;
 }
 
 .strength-sec-list {
@@ -73,4 +74,9 @@
     letter-spacing: 0.84px;
     line-height: 30px;
     padding-bottom: 100px;
+}
+
+.strength-button {
+    display: flex;
+    justify-content: center;
 }

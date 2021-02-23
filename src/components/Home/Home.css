@@ -2,10 +2,15 @@
     box-sizing: border-box;
 }
 
+.Home {
+    height: 100%;
+}
+
 .home-background {
-    height: 822px;
+    height: 825px;
     width: 100%;
     z-index: 1;
+    margin-bottom: -6px;
 }
 
 .home-logo {
@@ -40,6 +45,17 @@
     margin-left: 200px;
     margin-bottom: 90px;
     z-index: 2;
+}
+
+.home-dot-under-button {
+    background-color: cyan;
+    height: 6px;
+    width: 6px;
+    border-radius: 6px;
+    font-size: 200px;
+    top: 220px;
+    right: 833px;
+    position: absolute;
 }
 
 .home-nav-list {
@@ -83,22 +99,4 @@
     display: inline-block;
     padding-top: 60px;
     margin-right: 50px;
-}
-
-.home-scroll-line {
-    display: block;
-    color: cyan;
-    font-size: 11px;
-    font-weight: 400;
-    letter-spacing: 1.4px;
-    line-height: 19.8px;
-    -webkit-font-smoothing: antialiased;
-    writing-mode: vertical-rl;
-    position: absolute;
-    text-align: left;
-    height: 100px;
-    width: 1px;
-    top: 700px;
-    right: 80px;
-    bottom: 70px;
 }

@@ -1,11 +1,11 @@
 .About {
     background-color: white;
-    height: 700px;
+    height: 890px;
     z-index: 1;
 }
 
 .about-background {
-    height: 711px;
+    height: 900px;
     width: 100%;
     z-index: 1;
 }
@@ -18,8 +18,8 @@
     line-height: 36px;
     font-family: 'Noto Sans JP', sans-serif;
     position: absolute;
-    margin-top: -617px;
-    margin-bottom: 90px;
+    top: 113px;
+    margin-bottom: 0px;
     margin-left: 136.797px;
     z-index: 3;
 }
@@ -28,11 +28,11 @@
     display: block;
     background-color: rgba(255, 255, 255, 0.952);
     position: absolute;
-    height: 500px;
+    height: 600px;
     width: auto;
     left: 0px;
     right: 0px;
-    margin-top: -600px;
+    top: 150px;
     z-index: 2;
 }
 
@@ -50,7 +50,7 @@
     line-height: 30px;
     font-family: "OptimaLTPro-Roman", "Ryumin Regular KL", serif;
     position: absolute;
-    top: 110px;
+    top: 140px;
     right: 130px;
 }
 
@@ -59,7 +59,7 @@
     letter-spacing: 1px;
     font-family: "Crimson Text";
     position: absolute;
-    top: 165px;
+    top: 200px;
     right: 130px;
 }
 
@@ -70,7 +70,7 @@
     font-family: "Ryumin Regular KL", "Crimson Text";
     position: absolute;
     width: 230px;
-    top: 200px;
+    top: 240px;
     right: 130px;
 }
 
@@ -80,7 +80,7 @@
     text-align: right;
     height: 130px;
     width: auto;
-    top: 180px;
+    top: 240px;
     right: 450px;
     z-index: 3;
 }
@@ -99,5 +99,8 @@
 
 .about-link-to-person-sub-title {
     font-size: 12px;
-    margin-right: 300px;
+    position: absolute;
+    right: 300px;
+    top: 45px;
+    z-index: 3;
 }
