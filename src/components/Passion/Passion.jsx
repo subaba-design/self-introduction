@@ -1,6 +1,7 @@
 import React           from "react";
 import BackgroundImage from "../../images/red-yellow-and-green-colorful-chilli-peppers-picjumbo-com.jpg";
 import                      "./Passion.css";
+import                      "./Passion.res.css";
 
 const Passion = () => {
     return (

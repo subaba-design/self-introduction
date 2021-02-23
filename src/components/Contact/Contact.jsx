@@ -3,6 +3,7 @@ import { makeStyles }  from '@material-ui/core/styles';
 import Button          from '@material-ui/core/Button';
 import BackgroundImage from "../../images/calm-sea-wallpaper-picjumbo-com.jpg";
 import                      "./Contact.css";
+import                      "./Contact.res.css";
 
 const useStyles = makeStyles((theme) => ({
     root: {

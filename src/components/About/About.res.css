@@ -1,0 +1,79 @@
+@media screen and (max-width: 670px) {
+    .About {
+        height: 800px;
+        background-color: black;
+    }
+
+    .about-background {
+        height: 800px;
+    }
+
+    .about-title {
+        margin-left: 40px;
+        margin-top: -732px;
+    }
+
+    .about-content {
+        height: 620px;
+        margin-top: -715px;
+    }
+
+    .about-element {
+        display: block;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .about-element h2 {
+        top: 230px;
+        right: 10%;
+        left: 10%;
+    }
+
+    .about-element h3 {
+        top: 285px;
+        right: 10%;
+        left: 10%;
+    }
+
+    .about-element p {
+        display: block;
+        align-items: center;
+        top: 320px;
+        right: 10%;
+        left: 10%;
+        margin-right: auto; 
+        margin-left: auto;
+    }
+
+    .about-image {
+        display: block;
+        top: 90px;
+        right: 10%;
+        left: 10%;
+        margin-right: auto; 
+        margin-left: auto;
+    }
+
+    .about-link-to-person {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 36px;
+        position: absolute;
+        right: 0px;
+        width: 100%;
+        top: 380px;
+        z-index: 3;
+    }
+
+    .about-link-to-person-sub-title {
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        margin-right: auto; 
+        margin-left: auto;
+        top: 100px;
+    }
+}

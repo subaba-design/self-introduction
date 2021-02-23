@@ -6,7 +6,7 @@
 
 .about-background {
     height: 711px;
-    width: 1440px;
+    width: 100%;
     z-index: 1;
 }
 
@@ -18,7 +18,7 @@
     line-height: 36px;
     font-family: 'Noto Sans JP', sans-serif;
     position: absolute;
-    margin-top: -620px;
+    margin-top: -617px;
     margin-bottom: 90px;
     margin-left: 136.797px;
     z-index: 3;

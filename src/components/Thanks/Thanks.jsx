@@ -1,6 +1,7 @@
 import React           from "react";
 import BackgroundImage from "../../images/minimalist-evening-sea-horizon-picjumbo-com.jpg";
 import                      "./Thanks.css";
+import                      "./Thanks.res.css";
 
 const Thanks = () => {
     return (

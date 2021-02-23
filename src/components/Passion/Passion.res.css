@@ -1,0 +1,50 @@
+@media screen and (max-width: 1300px) {
+    .Passion {
+        height: 850px;
+    }
+
+    .passion-image {
+        height: 50%;
+        right: 150px;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .passion-image {
+        width: 70%;
+        height: auto;
+        margin-top: 10%;
+        margin-right: auto;
+        margin-left: auto;
+        right: 10%;
+        left: 20%;
+    }
+
+    .Passion {
+        height: 900px;
+        margin-bottom: -30px;
+    }
+
+    .passion-title {
+        font-size: 28px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        line-height: 36px;
+        font-family: 'Noto Sans JP', sans-serif;
+        margin-left: 10%;
+        margin-bottom: 50px;
+        padding-top: 100px;
+    }
+
+    .passion-text {
+        display: block;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 30px;
+        -webkit-font-smoothing: antialiased;
+        width: 70%;
+        margin-left: 10%;
+    }
+}

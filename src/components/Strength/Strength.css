@@ -1,6 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 .Strength {
     background-color: rgb(43, 51, 30);
-    height: 1000px;
 }
 
 .strength-title {
@@ -17,7 +20,7 @@
 
 .strength-sec-list {
     display: flex;
-    text-align: left;
+    justify-content: center;
     color: cyan;
     font-size: 14px;
     font-weight: 400;
@@ -25,22 +28,13 @@
     line-height: 25.2px;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-    width: 1152px;
-    max-width: 1400px;
-    margin-left: 104px;
-    margin-right: 104px;
-    margin-block-end: 50px;
-    margin-bottom: 50px;
-    margin-inline-end: 104px;
-    margin-inline-start: 104px;
-    padding-inline-start: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
+    width: 100%;
 }
 
 .strength-list {
-    margin-right: 92px;
-    width: 322px;
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 33%;
 }
 
 .strength-list-ttl-area {
@@ -50,28 +44,27 @@
 }
 
 .strength-list-ttl-img {
-    display: flex;
-    justify-content: center;
+    align-items: center;
     border-radius: 100px;
-    height: 200px;
-    width: 200px;
+    height: 200px; 
+    width: 200px; 
     margin-top: 18px;
-    margin-left: 61px;
-    margin-right: 61px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 70px;
 }
 
 .strength-list-ttl-jpn {
     font-size: 20px;
     line-height: 22.4px;
-    width: 322px;
+    width: 100%;
     margin-bottom: 10px;
 }
 
 .strength-list-ttl-eng {
     font-size: 11px;
     line-height: 19.8px;
-    width: 322px;
+    width: 100%;
 }
 
 .strength-sec-lead-area {
@@ -79,4 +72,5 @@
     font-size: 12px;
     letter-spacing: 0.84px;
     line-height: 30px;
+    padding-bottom: 100px;
 }

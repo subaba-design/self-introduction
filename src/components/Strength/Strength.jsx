@@ -7,22 +7,17 @@ import Image1                   from "../../images/pexels-ave-calvar-martinez-47
 import Image2                   from "../../images/pexels-ave-calvar-martinez-4705134-2.jpg";
 import Image3                   from "../../images/pexels-ave-calvar-martinez-4705134-3.jpg";
 import                               "./Strength.css";
+import                               "./Strength.res.css";
 
 const useStyles = makeStyles(() => ({
     root: {
-        display: 'flex',
+        alignItems: 'center',
         color: 'cyan',
         position: 'absolute',
-        justifyContent: 'center',
         width: 200,
-        marginTop: 35,
-        marginleft: 61,
-        marginRight: 61,
-        marginBlockEnd: 61,
-        marginBottom: 61,
-        marginInlineEnd: 61,
-        marginInlineStart: 61,
-        fontSize: 120
+        marginTop: 55,
+        marginleft: 'auto',
+        marginRight: 'auto',
     },
 }));
 
@@ -32,8 +27,8 @@ const Strength = () => {
     return (
         <div className="Strength">
             <h1 className="strength-title">Strength</h1>
-            <ul className="strength-sec-list">
-                <li className="strength-list">
+            <div className="strength-sec-list">
+                <div className="strength-list">
                     <div className="strength-list-ttl-area">
                         <span className={ classes.root }>
                             <DirectionsBikeIcon style={{ fontSize: 120 }} />
@@ -52,8 +47,8 @@ const Strength = () => {
                             計画が決まれば後は行動あるのみです。やるか、やるか、やるか。
                         </p>
                     </div>
-                </li>
-                <li className="strength-list">
+                </div>
+                <div className="strength-list">
                     <div className="strength-list-ttl-area">
                         <span className={ classes.root }>
                             <ColorLensIcon style={{ fontSize: 120 }} />
@@ -70,8 +65,8 @@ const Strength = () => {
                             どう表現したら鑑賞側がどう感じるか、という問いを悩み抜き、考え続けた経験があります
                         </p>
                     </div>
-                </li>
-                <li className="strength-list">
+                </div>
+                <div className="strength-list">
                     <div className="strength-list-ttl-area">
                         <span className={ classes.root }>
                             <FitnessCenterRoundedIcon style={{ fontSize: 120 }} />
@@ -88,8 +83,8 @@ const Strength = () => {
                             ここで培った忍耐力や根気強さは自信がありますし、プログラミングに限らずともあらゆる面で活きていると思います。
                         </p>
                     </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
     );
 }

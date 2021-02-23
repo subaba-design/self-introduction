@@ -1,14 +1,16 @@
 import React          from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button         from '@material-ui/core/Button';
+import FlightIcon     from '@material-ui/icons/Flight';
 import                     './Footer.css';
+import                     './Footer.res.css';
 
 const useStyles = makeStyles((theme) => ({
     root: {
         '& > *': {
             margin: theme.spacing(1),
-            color: 'cyan',
-            borderColor: 'cyan'
+            color: 'rosybrown',
+            borderColor: 'rosybrown'
         }
     }
 }));
@@ -18,6 +20,7 @@ const Footer = () => {
 
     return (
         <div className="Footer">
+            <div className="footer-line"></div>
             <h1 className="footer-logo">Against All Odds</h1>
             <ul className="footer-nav-list">
                 <li className={ classes.root }>
@@ -46,6 +49,9 @@ const Footer = () => {
                     </Button>
                 </li>
             </ul>
+            <span className="footer-nenu-icon">
+                <FlightIcon/>
+            </span>
         </div>
     );
 }

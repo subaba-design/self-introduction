@@ -4,7 +4,7 @@
 
 .thanks-content img {
     height: 700px;
-    width: 1440px;
+    width: 100%;
     margin-top: 80px;
     z-index: 1;
 }

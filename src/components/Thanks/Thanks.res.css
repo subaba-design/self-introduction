@@ -1,0 +1,16 @@
+@media screen and (max-width: 670px) {
+    .Thanks {
+        height: 600px;
+    }
+    
+    .thanks-content img {
+        height: 500px;
+        margin-top: 50px;
+    }
+    
+
+    .thanks-content h1 {
+        line-height: 100px;
+        margin-top: -360px;
+    }
+}

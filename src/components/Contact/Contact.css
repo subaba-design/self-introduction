@@ -1,6 +1,6 @@
 .contact-background {
     height: 700px;
-    width: 1440px;
+    width: 100%;
     z-index: 1;
 }
 
@@ -23,7 +23,7 @@
     line-height: 36px;
     font-family: 'Noto Sans JP', sans-serif;
     right: 380px;
-    margin-top: -730px;
+    margin-top: -728px;
     margin-bottom: 130px;
     padding-top: 100px;
     z-index: 2;
