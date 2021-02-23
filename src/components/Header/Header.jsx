@@ -1,23 +1,37 @@
 import React          from 'react';
-import clsx           from 'clsx';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer         from '@material-ui/core/Drawer';
-import Button         from '@material-ui/core/Button';
 import List           from '@material-ui/core/List';
 import Divider        from '@material-ui/core/Divider';
 import ListItem       from '@material-ui/core/ListItem';
 import ListItemText   from '@material-ui/core/ListItemText';
+import                     "./Header.css";
+
+import GrainIcon from '@material-ui/icons/Grain';
 
 const useStyles = makeStyles({
-    list: {
-        width: 250,
+    icon: {
+        
+        position: 'absolute',
+        top: 28,
+        right: 30,
+        cursor: 'pointer'
     }
 });
 
-const Header = () => {
+const Header = (props) => {
     const LEFT = 'left';
-    const TEXT_1 = 'てきすと';
-    const TEXT_2 = 'テキスト';
+    const MENU_Home = 'Home';
+    const MENU_About = 'About';
+    const MENU_Passion = 'Passion';
+    const MENU_Strength = 'Strength';
+    const MENU_Contact = 'Contact';
+    const LINK_Twitter = 'Twitter';
+    const LINK_Blog = 'Blog';
+    const LINK_Qiita = 'Qiita';
+    const LINK_GitHub = 'GitHub';
+
+    // const COLOR = 'black';
 
     const classes = useStyles();
     const [state, setState] = React.useState({
@@ -35,28 +49,74 @@ const Header = () => {
 
     const list = () => (
         <div
-            className={clsx(classes.list)}
+            className="header-list" 
             role="presentation"
             onClick={toggleDrawer(false)}
             onKeyDown={toggleDrawer(false)}
         >
             <List>
-                <ListItem button key={TEXT_1}>
-                    <ListItemText primary={TEXT_1} />
-                </ListItem>
+                <a href="/#/" className="header-list-item">
+                    <ListItem button key={MENU_Home}>
+                        <ListItemText primary={MENU_Home} />
+                    </ListItem>
+                </a>
+                <a href="/#/about" className="header-list-item">
+                    <ListItem button key={MENU_About}>
+                        <ListItemText primary={MENU_About} />
+                    </ListItem>
+                </a>
+                <a href="/#/passion" className="header-list-item">
+                    <ListItem button key={MENU_Passion}>
+                        <ListItemText primary={MENU_Passion} />
+                    </ListItem>
+                </a>                
+                <a href="/#/strength" className="header-list-item">
+                    <ListItem button key={MENU_Strength}>
+                        <ListItemText primary={MENU_Strength} />
+                    </ListItem>
+                </a>
+                <a href="/#/contact" className="header-list-item">
+                    <ListItem button key={MENU_Contact}>
+                        <ListItemText primary={MENU_Contact} />
+                    </ListItem>
+                </a>
             </List>
             <Divider />
             <List>
-                <ListItem button key={TEXT_2}>
-                    <ListItemText primary={TEXT_2} />
-                </ListItem>
+                <a href="https://twitter.com/yopipo415" className="header-list-item">
+                    <ListItem button key={LINK_Twitter}>
+                        <ListItemText primary={LINK_Twitter} />
+                    </ListItem>
+                </a>
+                <a href="https://let-there-be-magic.com/" className="header-list-item">
+                    <ListItem button key={LINK_Blog}>
+                        <ListItemText primary={LINK_Blog} />
+                    </ListItem>
+                </a>
+                <a href="https://qiita.com/Yopipo415" className="header-list-item">
+                    <ListItem button key={LINK_Qiita}>
+                        <ListItemText primary={LINK_Qiita} />
+                    </ListItem>
+                </a>
+                <a href="https://github.com/Yopipo415" className="header-list-item">
+                    <ListItem button key={LINK_GitHub}>
+                        <ListItemText primary={LINK_GitHub} />
+                    </ListItem>
+                </a>
             </List>
         </div>
     );
 
     return (
         <div>
-            <Button onClick={toggleDrawer(true)}>{LEFT}</Button>
+            <a href="/#/">
+                <h1 className="header-logo" style={{ color: props.COLOR }}>Against All Odds</h1>
+            </a>
+            <p className="header-button-wrapper" style={{ color: props.COLOR }}>
+                <span className={ classes.icon }>
+                    <GrainIcon style={{ fontSize: 30 }} onClick={toggleDrawer(true)}/>
+                </span>
+            </p>
             <Drawer open={state[LEFT]} onClose={toggleDrawer(false)}>
                 {list()}
             </Drawer>

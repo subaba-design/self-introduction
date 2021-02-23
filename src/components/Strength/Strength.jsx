@@ -9,6 +9,7 @@ import Image2                   from "../../images/pexels-ave-calvar-martinez-47
 import Image3                   from "../../images/pexels-ave-calvar-martinez-4705134-3.jpg";
 import                               "./Strength.css";
 import                               "./Strength.res.css";
+import Header from "../Header/Header";
 
 const useStyles = makeStyles(() => ({
     root: {
@@ -40,6 +41,7 @@ const Strength = (props) => {
 
     return (
         <div className="Strength">
+            <Header COLOR='cyan' />  
             <h1 className="strength-title">Strength</h1>
             <div className="strength-sec-list">
                 <div className="strength-list">

@@ -1,10 +1,10 @@
 import React           from 'react';
 import { makeStyles }  from '@material-ui/core/styles';
 import Button          from '@material-ui/core/Button';
-import GrainIcon       from '@material-ui/icons/Grain';
 import BackgroundImege from '../../images/abstract-red-and-orange-liquid-background-picjumbo-com.jpg';
 import                      './Home.css';
 import                      './Home.res.css';
+import Header from "../Header/Header";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -13,13 +13,6 @@ const useStyles = makeStyles((theme) => ({
             color: 'cyan',
             borderColor: 'cyan'
         }
-    },
-    icon: {
-        color: 'cyan',
-        position: 'absolute',
-        top: 32,
-        right: 30,
-        cursor: 'pointer'
     }
 }));
 
@@ -28,13 +21,9 @@ const Home = (props) => {
 
     return (
         <div className="Home">
+            <Header COLOR='cyan' />  
             <img src={ BackgroundImege } className="home-background" />
-            <h1 className="home-logo">Against All Odds</h1>
-            <span className="home-nenu-icon">
-                <span className={ classes.icon }>
-                    <GrainIcon/>
-                </span>
-            </span>
+            
             <h1 className="home-title">MASAYA FUKAI</h1>
             <p className="home-dot-under-button"></p>
             <ul className="home-nav-list">

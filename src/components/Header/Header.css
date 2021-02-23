@@ -1,0 +1,38 @@
+.header-logo {
+    color: cyan;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    line-height: 20px;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 30px;
+    margin-left: 50px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.header-button {
+    color: cyan;
+    
+}
+
+.header-list-item {
+    color: honeydew;
+    text-decoration: none;
+}
+
+.header-button-wrapper {
+    position: absolute;
+    right: 10px;
+}
+
+.header-list {
+    width: 250px;
+    height: 825px;
+    color: honeydew;
+    background-color: gray;
+    background: cover;
+    padding-left: 20px;
+}
