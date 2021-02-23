@@ -21,31 +21,31 @@ const Footer = () => {
     return (
         <div className="Footer">
             <div className="footer-line"></div>
-            <h1 className="footer-logo">Against All Odds</h1>
+            <h1 className="footer-logo">Yopipo</h1>
             <ul className="footer-nav-list">
                 <li className={ classes.root }>
                     <Button variant="outlined">
-                        Home
+                        Apple
                     </Button>
                 </li>
                 <li className={ classes.root }>
                     <Button variant="outlined">
-                        About
+                        Banana
                     </Button>
                 </li>
                 <li className={ classes.root }>
                     <Button variant="outlined">
-                        Passion
+                        Peach
                     </Button>
                 </li>
                 <li className={ classes.root }>
                     <Button variant="outlined">
-                        Strength
+                        Orange
                     </Button>
                 </li>
                 <li className={ classes.root }>
                     <Button variant="outlined">
-                        Contact
+                        Lemon
                     </Button>
                 </li>
             </ul>

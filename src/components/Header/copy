@@ -1,93 +1,78 @@
-import React           from 'react';
-import { makeStyles }  from '@material-ui/core/styles';
-import Button          from '@material-ui/core/Button';
-import GrainIcon       from '@material-ui/icons/Grain';
-import BackgroundImege from '../../images/abstract-red-and-orange-liquid-background-picjumbo-com.jpg';
-import                      './Header.css';
-import                      './Header.res.css';
+import React          from 'react';
+import clsx           from 'clsx';
+import { makeStyles } from '@material-ui/core/styles';
+import Drawer         from '@material-ui/core/Drawer';
+import Button         from '@material-ui/core/Button';
+import List           from '@material-ui/core/List';
+import Divider        from '@material-ui/core/Divider';
+import ListItem       from '@material-ui/core/ListItem';
+import ListItemText   from '@material-ui/core/ListItemText';
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-        '& > *': {
-            margin: theme.spacing(1),
-            color: 'cyan',
-            borderColor: 'cyan'
-        }
-    },
-    icon: {
-        color: 'cyan',
-        position: 'absolute',
-        top: 32,
-        right: 30,
-        cursor: 'pointer'
+const useStyles = makeStyles({
+    list: {
+        width: 250,
     }
-}));
+});
 
 const Header = () => {
+    const LEFT = 'left';
+    const TEXT_1 = 'てきすと';
+    const TEXT_2 = 'テキスト';
+
     const classes = useStyles();
+    const [state, setState] = React.useState({
+        left: false,
+    });
+
+    const toggleDrawer = (open) => (event) => {
+        // なぜかこれが無いとエラーが出る
+        if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
+            return;
+        }
+
+        setState({ ...state, [LEFT]: open });
+    };
+
+    const list = () => (
+        <div
+            className={clsx(classes.list)}
+            role="presentation"
+            onClick={toggleDrawer(false)}
+            onKeyDown={toggleDrawer(false)}
+        >
+            <List>
+                <ListItem button key={TEXT_1}>
+                    <ListItemText primary={TEXT_1} />
+                </ListItem>
+            </List>
+            <Divider />
+            <List>
+                <ListItem button key={TEXT_2}>
+                    <ListItemText primary={TEXT_2} />
+                </ListItem>
+            </List>
+        </div>
+    );
+
+    // return (
+    //     <div>
+    //         {['left', 'right', 'top', 'bottom'].map((anchor) => (
+    //             <React.Fragment key={anchor}>
+    //                 <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+    //                 <Drawer anchor={anchor} open={state[anchor]} onClose={toggleDrawer(anchor, false)}>
+    //                     {list(anchor)}
+    //                 </Drawer>
+    //             </React.Fragment>
+    //         ))}
+    //     </div>
+    // );
 
     return (
         <div>
-            <img src={ BackgroundImege } className="header-background" />
-            <h1 className="header-logo">Against All Odds</h1>
-            <span className="header-nenu-icon">
-                <span className={ classes.icon }>
-                    <GrainIcon/>
-                </span>
-            </span>
-            <h1 className="header-title">MASAYA FUKAI</h1>
-            <ul className="header-nav-list">
-                <li className={ classes.root }>
-                    <Button variant="outlined">
-                        Home
-                    </Button>
-                </li>
-                <li className={ classes.root }>
-                    <Button variant="outlined">
-                        About
-                    </Button>
-                </li>
-                <li className={ classes.root }>
-                    <Button variant="outlined">
-                        Passion
-                    </Button>
-                </li>
-                <li className={ classes.root }>
-                    <Button variant="outlined">
-                        Strength
-                    </Button>
-                </li>
-                <li className={ classes.root }>
-                    <Button variant="outlined">
-                        Contact
-                    </Button>
-                </li>
-            </ul>
-            <ul className="header-link-list">
-                <li className={ classes.root }>
-                    <Button>
-                        Twitter
-                    </Button>
-                </li>
-                <li className={ classes.root }>
-                    <Button>
-                        Blog
-                    </Button>
-                </li>
-                <li className={ classes.root }>
-                    <Button>
-                        Qiita
-                    </Button>
-                </li>
-                <li className={ classes.root }>
-                    <Button>
-                        GitHub
-                    </Button>
-                </li>
-            </ul>
-            <p className="header-scroll-line">
-                <span>SCROLL →</span>
-            </p>
+            <Button onClick={toggleDrawer(true)}>{LEFT}</Button>
+            <Drawer open={state[LEFT]} onClose={toggleDrawer(false)}>
+                {list()}
+            </Drawer>
         </div>
     );
 };

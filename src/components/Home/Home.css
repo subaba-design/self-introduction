@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+.home-background {
+    height: 822px;
+    width: 100%;
+    z-index: 1;
+}
+
+.home-logo {
+    color: cyan;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    line-height: 20px;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 30px;
+    margin-left: 50px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.home-nenu-icon {
+    display: none;
+}
+
+
+.home-title {
+    color: cyan;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    line-height: 42px;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+    top: 180px;
+    margin-left: 200px;
+    margin-bottom: 90px;
+    z-index: 2;
+}
+
+.home-nav-list {
+    list-style: none;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    line-height: 25.2px;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    text-align: right;
+    height: 58px;
+    top: 400px;
+    right: 0px;
+    z-index: 2;
+}
+
+.home-nav-list li {
+    display: inline-block;
+    padding-top: 30px;
+    margin-right: 67px;
+}
+
+.home-link-list {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    line-height: 25.2px;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    text-align: right;
+    top: 480px;
+    right: 15px;
+    padding-left: 0;
+    z-index: 2;
+}
+
+.home-link-list li {
+    display: inline-block;
+    padding-top: 60px;
+    margin-right: 50px;
+}
+
+.home-scroll-line {
+    display: block;
+    color: cyan;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    line-height: 19.8px;
+    -webkit-font-smoothing: antialiased;
+    writing-mode: vertical-rl;
+    position: absolute;
+    text-align: left;
+    height: 100px;
+    width: 1px;
+    top: 700px;
+    right: 80px;
+    bottom: 70px;
+}
