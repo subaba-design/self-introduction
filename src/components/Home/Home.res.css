@@ -4,6 +4,10 @@
         width: 100%;
     }
 
+    .home-dot-under-button {
+        display: none;
+    }
+
     .home-title {
         margin-left: 120px;
     }
@@ -22,15 +26,6 @@
     .home-background {
         height: 650px;
         width: 100%;
-    }
-
-    .home-logo {
-        top: 20px;
-        margin-left: 30px;
-    }
-
-    .home-nenu-icon {
-        display: block;
     }
 
     .home-title {

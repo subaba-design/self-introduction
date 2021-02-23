@@ -1,39 +1,28 @@
 import React          from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import Drawer         from '@material-ui/core/Drawer';
 import List           from '@material-ui/core/List';
 import Divider        from '@material-ui/core/Divider';
 import ListItem       from '@material-ui/core/ListItem';
 import ListItemText   from '@material-ui/core/ListItemText';
-import                     "./Header.css";
+import GrainIcon      from '@material-ui/icons/Grain';
+import                     './Header.css';
+import                     './Header.res.css';
 
-import GrainIcon from '@material-ui/icons/Grain';
 
-const useStyles = makeStyles({
-    icon: {
-        
-        position: 'absolute',
-        top: 28,
-        right: 30,
-        cursor: 'pointer'
-    }
-});
 
 const Header = (props) => {
     const LEFT = 'left';
-    const MENU_Home = 'Home';
-    const MENU_About = 'About';
-    const MENU_Passion = 'Passion';
+
+    const MENU_Home     = 'Home';
+    const MENU_About    = 'About';
+    const MENU_Passion  = 'Passion';
     const MENU_Strength = 'Strength';
-    const MENU_Contact = 'Contact';
-    const LINK_Twitter = 'Twitter';
-    const LINK_Blog = 'Blog';
-    const LINK_Qiita = 'Qiita';
-    const LINK_GitHub = 'GitHub';
-
-    // const COLOR = 'black';
-
-    const classes = useStyles();
+    const MENU_Contact  = 'Contact';
+    const LINK_Twitter  = 'Twitter';
+    const LINK_Blog     = 'Blog';
+    const LINK_Qiita    = 'Qiita';
+    const LINK_GitHub   = 'GitHub';
+    
     const [state, setState] = React.useState({
         left: false,
     });
@@ -112,10 +101,8 @@ const Header = (props) => {
             <a href="/#/">
                 <h1 className="header-logo" style={{ color: props.COLOR }}>Against All Odds</h1>
             </a>
-            <p className="header-button-wrapper" style={{ color: props.COLOR }}>
-                <span className={ classes.icon }>
-                    <GrainIcon style={{ fontSize: 30 }} onClick={toggleDrawer(true)}/>
-                </span>
+            <p className="header-menu-button" style={{ color: props.COLOR }}>
+                <GrainIcon style={{ fontSize: 30 }} onClick={toggleDrawer(true)}/>
             </p>
             <Drawer open={state[LEFT]} onClose={toggleDrawer(false)}>
                 {list()}

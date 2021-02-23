@@ -9,30 +9,26 @@
     position: absolute;
     top: 30px;
     margin-left: 50px;
-    z-index: 2;
     cursor: pointer;
+    z-index: 2;
 }
 
-.header-button {
-    color: cyan;
-    
+.header-menu-button {
+    position: absolute;
+    top: 23px;
+    right: 40px;
+    cursor: pointer;
+    z-Index: 2;
+}
+
+.header-list {
+    background-color: gray;
+    width: 250px;
+    height: 825px;
+    padding-left: 20px;
 }
 
 .header-list-item {
     color: honeydew;
     text-decoration: none;
-}
-
-.header-button-wrapper {
-    position: absolute;
-    right: 10px;
-}
-
-.header-list {
-    width: 250px;
-    height: 825px;
-    color: honeydew;
-    background-color: gray;
-    background: cover;
-    padding-left: 20px;
 }

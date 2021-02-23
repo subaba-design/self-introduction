@@ -9,14 +9,9 @@
 .home-background {
     height: 825px;
     width: 100%;
-    z-index: 1;
     margin-bottom: -6px;
+    z-index: 1;
 }
-
-.home-nenu-icon {
-    display: none;
-}
-
 
 .home-title {
     color: cyan;

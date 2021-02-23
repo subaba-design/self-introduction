@@ -1,10 +1,10 @@
 import React           from "react";
 import { makeStyles }  from '@material-ui/core/styles';
 import Button          from '@material-ui/core/Button';
+import Header          from "../Header/Header";
 import BackgroundImage from "../../images/red-yellow-and-green-colorful-chilli-peppers-picjumbo-com.jpg";
 import                      "./Passion.css";
 import                      "./Passion.res.css";
-import Header from "../Header/Header";
 
 const useStyles = makeStyles(() => ({
     root: {
@@ -34,12 +34,15 @@ const Passion = (props) => {
           新しく知ったプログラミングという世界への情熱を、貴社に貢献という形でぶつけたいと思っています。
           </p>
           <img className="passion-image" src={ BackgroundImage } />
-          <p className="passion-link-sub-title">...</p>
-          <p className={ classes.root }>
-              <Button variant="outlined" onClick={() => {
-                  props.history.push('strength')
-              }}>Strength</Button>
-          </p>
+          <div className="passion-next-button">
+            <p className="passion-link-sub-title">...</p>
+            <p className={ classes.root }>
+                <Button variant="outlined" onClick={() => {
+                    props.history.push('strength')
+                }}>Strength</Button>
+            </p>
+          </div>
+          
         </div>
     );
 }

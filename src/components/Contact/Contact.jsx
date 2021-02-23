@@ -22,6 +22,7 @@ const Contact = () => {
     return (
         <div>
             <Header COLOR='rgb(231, 75, 18)' />  
+            <div className="contact-top-content"></div>
             <img src={ BackgroundImage } className="contact-background"/>
             <h1 className="contact-title">Contact</h1>
             <div className="contact-across-line"></div>

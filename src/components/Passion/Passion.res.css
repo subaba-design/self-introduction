@@ -1,6 +1,6 @@
 @media screen and (max-width: 1300px) {
     .Passion {
-        height: 850px;
+        height: 1050px;
     }
 
     .passion-image {
@@ -8,21 +8,19 @@
         right: 150px;
         margin-top: 5%;
     }
+
+    .passion-link-sub-title {
+        top: 855px;
+    }
+
+    .passion-next-button {
+        margin-top: 530px;
+    }
 }
 
 @media screen and (max-width: 870px) {
-    .passion-image {
-        width: 70%;
-        height: auto;
-        margin-top: 10%;
-        margin-right: auto;
-        margin-left: auto;
-        right: 10%;
-        left: 20%;
-    }
-
     .Passion {
-        height: 900px;
+        height: 1200px;
         margin-bottom: -30px;
     }
 
@@ -34,7 +32,7 @@
         font-family: 'Noto Sans JP', sans-serif;
         margin-left: 10%;
         margin-bottom: 50px;
-        padding-top: 100px;
+        padding-top: 200px;
     }
 
     .passion-text {
@@ -46,5 +44,29 @@
         -webkit-font-smoothing: antialiased;
         width: 70%;
         margin-left: 10%;
+    }
+
+    .passion-image {
+        position: relative;
+        width: 70%;
+        height: auto;
+        top: 0px;
+        margin-top: 5%;
+        padding-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        right: 10%;
+        left: 20%;
+    }
+
+    .passion-link-sub-title {
+        display: none;
+    }
+
+    .passion-next-button {
+        position: absolute;
+        text-align: right;
+        left: 300px;
+        margin-top: 250px;
     }
 }

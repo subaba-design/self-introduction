@@ -1,10 +1,10 @@
 import React           from 'react';
 import { makeStyles }  from '@material-ui/core/styles';
 import Button          from '@material-ui/core/Button';
+import Header          from "../Header/Header";
 import BackgroundImege from '../../images/abstract-red-and-orange-liquid-background-picjumbo-com.jpg';
 import                      './Home.css';
 import                      './Home.res.css';
-import Header from "../Header/Header";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -23,7 +23,6 @@ const Home = (props) => {
         <div className="Home">
             <Header COLOR='cyan' />  
             <img src={ BackgroundImege } className="home-background" />
-            
             <h1 className="home-title">MASAYA FUKAI</h1>
             <p className="home-dot-under-button"></p>
             <ul className="home-nav-list">

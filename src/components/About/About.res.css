@@ -5,17 +5,17 @@
     }
 
     .about-background {
-        height: 800px;
+        height: 900px;
     }
 
     .about-title {
         margin-left: 40px;
-        margin-top: -732px;
+        margin-top: 5px;
     }
 
     .about-content {
         height: 620px;
-        margin-top: -715px;
+        margin-top: -15px;
     }
 
     .about-element {

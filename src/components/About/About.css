@@ -1,12 +1,13 @@
 .About {
-    background-color: white;
-    height: 890px;
+    background-color: rgb(94, 94, 94);
+    height: 920px;
     z-index: 1;
 }
 
 .about-background {
     height: 900px;
     width: 100%;
+    margin-top: 10px;
     z-index: 1;
 }
 
