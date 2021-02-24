@@ -1,7 +1,7 @@
 import React           from "react";
 import { makeStyles }  from '@material-ui/core/styles';
 import Button          from '@material-ui/core/Button';
-import BackgroundImage from "../../images/calm-sea-wallpaper-picjumbo-com.jpg";
+import BackgroundImage from "../../images/calm-sea-wallpaper-picjumbo-com.jpeg";
 import                      "./Contact.css";
 import                      "./Contact.res.css";
 import Header from "../Header/Header";

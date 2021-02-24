@@ -2,7 +2,7 @@ import React           from 'react';
 import { makeStyles }  from '@material-ui/core/styles';
 import Button          from '@material-ui/core/Button';
 import Header          from "../Header/Header";
-import BackgroundImege from '../../images/abstract-red-and-orange-liquid-background-picjumbo-com.jpg';
+import BackgroundImege from '../../images/abstract-red-and-orange-liquid-background-picjumbo-com.jpeg';
 import                      './Home.css';
 import                      './Home.res.css';
 
