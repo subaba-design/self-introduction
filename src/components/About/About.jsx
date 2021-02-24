@@ -3,7 +3,7 @@ import { makeStyles }  from '@material-ui/core/styles';
 import Button          from '@material-ui/core/Button';
 import Header          from "../Header/Header";
 import BackgroundImage from "../../images/pexels-pixabay-47349.jpeg";
-import Image           from "../../images/S__30769154.jpg";
+import Image           from "../../images/S__30769154.jpeg";
 import                      "./About.css";
 import                      "./About.res.css";
 
