@@ -8,7 +8,7 @@ import GrainIcon      from '@material-ui/icons/Grain';
 import                     './Header.css';
 import                     './Header.res.css';
 
-
+import { Link } from "react-router-dom";
 
 const Header = (props) => {
     const LEFT = 'left';
@@ -44,31 +44,41 @@ const Header = (props) => {
             onKeyDown={toggleDrawer(false)}
         >
             <List>
-                <a href="/#/" className="header-list-item">
-                    <ListItem button key={MENU_Home}>
-                        <ListItemText primary={MENU_Home} />
-                    </ListItem>
-                </a>
-                <a href="/#/about" className="header-list-item">
-                    <ListItem button key={MENU_About}>
-                        <ListItemText primary={MENU_About} />
-                    </ListItem>
-                </a>
-                <a href="/#/passion" className="header-list-item">
-                    <ListItem button key={MENU_Passion}>
-                        <ListItemText primary={MENU_Passion} />
-                    </ListItem>
-                </a>                
-                <a href="/#/strength" className="header-list-item">
-                    <ListItem button key={MENU_Strength}>
-                        <ListItemText primary={MENU_Strength} />
-                    </ListItem>
-                </a>
-                <a href="/#/contact" className="header-list-item">
-                    <ListItem button key={MENU_Contact}>
-                        <ListItemText primary={MENU_Contact} />
-                    </ListItem>
-                </a>
+                <Link to='/' style={{ textDecoration: 'none' }}>
+                    <span className="header-list-item">
+                        <ListItem button key={MENU_Home}>
+                            <ListItemText primary={MENU_Home} />
+                        </ListItem>
+                    </span>
+                </Link>
+                <Link to='/about' style={{ textDecoration: 'none' }}>
+                    <span className="header-list-item">
+                        <ListItem button key={MENU_About}>
+                            <ListItemText primary={MENU_About} />
+                        </ListItem>
+                    </span>
+                </Link>
+                <Link to='/passion' style={{ textDecoration: 'none' }}>
+                    <span className="header-list-item">
+                        <ListItem button key={MENU_Passion}>
+                            <ListItemText primary={MENU_Passion} />
+                        </ListItem>
+                    </span>
+                </Link>
+                <Link to='/strength' style={{ textDecoration: 'none' }}>
+                    <span className="header-list-item"> 
+                        <ListItem button key={MENU_Strength}>
+                            <ListItemText primary={MENU_Strength} />
+                        </ListItem>
+                    </span>
+                </Link>
+                <Link to='/contact' style={{ textDecoration: 'none' }}>
+                    <span className="header-list-item"> 
+                        <ListItem button key={MENU_Contact}>
+                            <ListItemText primary={MENU_Contact} />
+                        </ListItem>
+                    </span>
+                </Link>
             </List>
             <Divider />
             <List>
@@ -98,9 +108,9 @@ const Header = (props) => {
 
     return (
         <div>
-            <a href="/#/">
+            <Link to='/' style={{ textDecoration: 'none' }}>
                 <h1 className="header-logo" style={{ color: props.COLOR }}>Against All Odds</h1>
-            </a>
+            </Link>
             <p className="header-menu-button" style={{ color: props.COLOR }}>
                 <GrainIcon style={{ fontSize: 30 }} onClick={toggleDrawer(true)}/>
             </p>
