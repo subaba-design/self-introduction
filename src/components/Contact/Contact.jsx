@@ -1,16 +1,16 @@
-import React           from "react";
+import React           from 'react';
 import { makeStyles }  from '@material-ui/core/styles';
 import Button          from '@material-ui/core/Button';
-import BackgroundImage from "../../images/calm-sea-wallpaper-picjumbo-com.jpeg";
-import                      "./Contact.css";
-import                      "./Contact.res.css";
-import Header from "../Header/Header";
+import Header          from '../Header/Header';
+import BackgroundImage from '../../images/calm-sea-wallpaper-picjumbo-com.jpeg';
+import                      './Contact.css';
+import                      './Contact.res.css';
 
 const useStyles = makeStyles((theme) => ({
     root: {
         '& > *': {
-            margin: theme.spacing(1),
-            color: 'rgb(231, 75, 18)',
+            margin     : theme.spacing(1),
+            color      : 'rgb(231, 75, 18)',
             borderColor: 'rgb(231, 75, 18)'
         }
     }
@@ -28,7 +28,7 @@ const Contact = () => {
             <div className="contact-across-line"></div>
             <div className="contact-content">
                 <div className="contact-adress">
-                    <p>-----@gmail.com</p>
+                    <p>fslm5415@gmail.com</p>
                 </div>
                 <h2 className="contact-sub-title">and more info...</h2>
                 <ul className="contact-link-list">
@@ -64,6 +64,6 @@ const Contact = () => {
             </div>
         </div>
     );
-}
+};
 
 export default Contact;

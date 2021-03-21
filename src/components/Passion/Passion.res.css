@@ -9,12 +9,12 @@
         margin-top: 5%;
     }
 
-    .passion-link-sub-title {
-        top: 855px;
-    }
-
     .passion-next-button {
         margin-top: 530px;
+    }
+
+    .passion-link-sub-title {
+        top: 855px;
     }
 }
 
@@ -59,14 +59,14 @@
         left: 20%;
     }
 
-    .passion-link-sub-title {
-        display: none;
-    }
-
     .passion-next-button {
         position: absolute;
         text-align: right;
         left: 300px;
         margin-top: 250px;
+    }
+
+    .passion-link-sub-title {
+        display: none;
     }
 }

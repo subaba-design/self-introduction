@@ -1,18 +1,18 @@
-import React           from "react";
+import React           from 'react';
 import { makeStyles }  from '@material-ui/core/styles';
 import Button          from '@material-ui/core/Button';
-import Header          from "../Header/Header";
-import BackgroundImage from "../../images/pexels-pixabay-47349.jpeg";
-import Image           from "../../images/S__30769154.jpeg";
-import                      "./About.css";
-import                      "./About.res.css";
+import Header          from '../Header/Header';
+import BackgroundImage from '../../images/pexels-pixabay-47349.jpeg';
+import Image           from '../../images/S__30769154.jpeg';
+import                      './About.css';
+import                      './About.res.css';
 
 const useStyles = makeStyles(() => ({
   root: {
     '& > *': {
-      color: 'deeppink',
+      color      : 'deeppink',
       borderColor: 'deeppink',
-      marginTop: -375
+      marginTop  : -375
     }
   }
 }));

@@ -2,7 +2,6 @@
     background-color: rgb(216, 19, 68);
     color: rgb(30, 255, 0);
     height: 825px;
-    /* margin-bottom: -20px; */
     margin-top: -20px;
 }
 
@@ -38,6 +37,10 @@
     z-index: 1;
 }
 
+.passion-next-button {
+    color: rgb(30, 255, 0);
+}
+
 .passion-link-sub-title {
     font-size: 12px;
     letter-spacing: 5px;
@@ -45,8 +48,4 @@
     right: 250px;
     top: 340px;
     z-index: 3;
-}
-
-.passion-next-button {
-    color: rgb(30, 255, 0);
 }

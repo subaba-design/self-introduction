@@ -1,7 +1,7 @@
 import React           from 'react';
 import { makeStyles }  from '@material-ui/core/styles';
 import Button          from '@material-ui/core/Button';
-import Header          from "../Header/Header";
+import Header          from '../Header/Header';
 import BackgroundImege from '../../images/abstract-red-and-orange-liquid-background-picjumbo-com.jpeg';
 import                      './Home.css';
 import                      './Home.res.css';
@@ -9,8 +9,8 @@ import                      './Home.res.css';
 const useStyles = makeStyles((theme) => ({
     root: {
         '& > *': {
-            margin: theme.spacing(1),
-            color: 'cyan',
+            margin     : theme.spacing(1),
+            color      : 'cyan',
             borderColor: 'cyan'
         }
     }

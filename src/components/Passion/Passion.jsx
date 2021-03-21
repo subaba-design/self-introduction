@@ -1,22 +1,22 @@
-import React           from "react";
+import React           from 'react';
 import { makeStyles }  from '@material-ui/core/styles';
 import Button          from '@material-ui/core/Button';
-import Header          from "../Header/Header";
-import BackgroundImage from "../../images/red-yellow-and-green-colorful-chilli-peppers-picjumbo-com.jpeg";
-import                      "./Passion.css";
-import                      "./Passion.res.css";
+import Header          from '../Header/Header';
+import BackgroundImage from '../../images/red-yellow-and-green-colorful-chilli-peppers-picjumbo-com.jpeg';
+import                      './Passion.css';
+import                      './Passion.res.css';
 
 const useStyles = makeStyles(() => ({
-    root: {
-      '& > *': {
-        color: 'rgb(30, 255, 0)',
-        borderColor: 'rgb(30, 255, 0)',
-        marginTop: -140,
-        right: 120,
-        position: 'absolute'
-      }
+  root: {
+    '& > *': {
+      color      : 'rgb(30, 255, 0)',
+      borderColor: 'rgb(30, 255, 0)',
+      marginTop  : -140,
+      right      : 120,
+      position   : 'absolute'
     }
-  }));
+  }
+}));
 
 const Passion = (props) => {
     const classes = useStyles();
@@ -42,9 +42,8 @@ const Passion = (props) => {
                 }}>Strength</Button>
             </p>
           </div>
-          
         </div>
     );
-}
+};
 
 export default Passion;
