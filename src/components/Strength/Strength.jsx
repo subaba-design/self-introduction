@@ -1,4 +1,4 @@
-import React                    from 'react';
+import React, { useState }      from 'react';
 import { makeStyles }           from '@material-ui/core/styles';
 import Button                   from '@material-ui/core/Button';
 import DirectionsBikeIcon       from '@material-ui/icons/DirectionsBike';
@@ -8,6 +8,10 @@ import Header                   from '../Header/Header';
 import Image1                   from '../../images/pexels-ave-calvar-martinez-4705134.jpeg';
 import Image2                   from '../../images/pexels-ave-calvar-martinez-4705134-2.jpeg';
 import Image3                   from '../../images/pexels-ave-calvar-martinez-4705134-3.jpeg';
+import AikidoImage1             from '../../images/IMG_3689.jpg';
+import AikidoImage2             from '../../images/IMG_3660.jpg';
+import PaintImage1              from "../../images/IMG_4165.jpg";
+import PaintImage2              from "../../images/IMG_3841.jpg";
 import                               './Strength.css';
 import                               './Strength.res.css';
 
@@ -33,11 +37,27 @@ const useStyles = makeStyles(() => ({
             marginRight : 'auto'
 
         }
-      }
+    },
+    subButton: {
+        color         : 'cyan',
+        marginBottom  : 5
+    }
 }));
+
+const Popup = (props) => {
+    return (
+        <div className='popup' onClick={props.closePopup}>
+            <img className="popup_img" src={ props.img } />
+        </div>
+    );
+};
 
 const Strength = (props) => {
     const classes = useStyles();
+    const [showAikidoImage1, setShowAikidoImage1] = useState(false);
+    const [showAikidoImage2, setShowAikidoImage2] = useState(false);
+    const [showPaintImage1, setShowPaintImage1] = useState(false);
+    const [showPaintImage2, setShowPaintImage2] = useState(false);
 
     return (
         <div className="Strength">
@@ -64,6 +84,18 @@ const Strength = (props) => {
                             計画が決まれば後は行動あるのみです。やるか、やるか、やるか。
                         </p>
                     </div>
+                    <div className="strength-list-button">
+                        <a href="https://twitter.com/yopipo415" style={{ textDecoration: 'none' }}>
+                            <Button>
+                                <span className={ classes.subButton }>reference ➡︎ Twitter</span>
+                            </Button>
+                        </a>
+                        <a href="https://qiita.com/Yopipo415"  style={{ textDecoration: 'none' }}>
+                            <Button>
+                                <span className={ classes.subButton }>reference ➡︎ Qiita</span>
+                            </Button>
+                        </a>
+                    </div>
                 </div>
                 <div className="strength-list">
                     <div className="strength-list-ttl-area">
@@ -82,6 +114,26 @@ const Strength = (props) => {
                             どう表現したら鑑賞側がどう感じるか、という問いを悩み抜き、考え続けた経験があります。
                         </p>
                     </div>
+                    <div className="strength-list-button">
+                        <Button onClick={() => {
+                            setShowPaintImage1(!showPaintImage1);
+                        }}><span className={ classes.subButton }>reference ➡︎ image1</span></Button>
+                        {showPaintImage1 ? 
+                            <Popup closePopup={() => {
+                                setShowPaintImage1(!showPaintImage1);
+                            }} img={ PaintImage1 } />
+                            : null
+                        }
+                        <Button onClick={() => {
+                            setShowPaintImage2(!showPaintImage2);
+                        }}><span className={ classes.subButton }>reference ➡︎ image1</span></Button>
+                        {showPaintImage2 ? 
+                            <Popup closePopup={() => {
+                                setShowPaintImage2(!showPaintImage2);
+                            }} img={ PaintImage2 } />
+                            : null
+                        }
+                    </div>
                 </div>
                 <div className="strength-list">
                     <div className="strength-list-ttl-area">
@@ -99,6 +151,26 @@ const Strength = (props) => {
                             一度やり始めると、最後までやり切らないと納得ができません。
                             ここで培った忍耐力や根気強さは自信がありますし、プログラミングに限らずともあらゆる面で活きていると思います。
                         </p>
+                    </div>
+                    <div className="strength-list-button">
+                        <Button onClick={() => {
+                            setShowAikidoImage1(!showAikidoImage1);
+                        }}><span className={ classes.subButton }>reference ➡︎ image1</span></Button>
+                        {showAikidoImage1 ? 
+                            <Popup closePopup={() => {
+                                setShowAikidoImage1(!showAikidoImage1);
+                            }} img={ AikidoImage1 } />
+                            : null
+                        }
+                        <Button onClick={() => {
+                            setShowAikidoImage2(!showAikidoImage2);
+                        }}><span className={ classes.subButton }>reference ➡︎ image2</span></Button>
+                        {showAikidoImage2 ? 
+                            <Popup closePopup={() => {
+                                setShowAikidoImage2(!showAikidoImage2);
+                            }} img={ AikidoImage2 } />
+                            : null
+                        }
                     </div>
                 </div>
             </div>
