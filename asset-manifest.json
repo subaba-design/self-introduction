@@ -1,32 +1,27 @@
 {
   "files": {
-    "main.css": "/project001/static/css/main.3ff4b750.chunk.css",
-    "main.js": "/project001/static/js/main.50726357.chunk.js",
-    "main.js.map": "/project001/static/js/main.50726357.chunk.js.map",
-    "runtime-main.js": "/project001/static/js/runtime-main.06abeded.js",
-    "runtime-main.js.map": "/project001/static/js/runtime-main.06abeded.js.map",
-    "static/js/2.3747cde7.chunk.js": "/project001/static/js/2.3747cde7.chunk.js",
-    "static/js/2.3747cde7.chunk.js.map": "/project001/static/js/2.3747cde7.chunk.js.map",
-    "index.html": "/project001/index.html",
-    "static/css/main.3ff4b750.chunk.css.map": "/project001/static/css/main.3ff4b750.chunk.css.map",
-    "static/js/2.3747cde7.chunk.js.LICENSE.txt": "/project001/static/js/2.3747cde7.chunk.js.LICENSE.txt",
-    "static/media/IMG_3660.03927036.jpg": "/project001/static/media/IMG_3660.03927036.jpg",
-    "static/media/IMG_3689.6dbfec48.jpg": "/project001/static/media/IMG_3689.6dbfec48.jpg",
-    "static/media/IMG_3841.0a098649.jpg": "/project001/static/media/IMG_3841.0a098649.jpg",
-    "static/media/IMG_4165.b17b6d75.jpg": "/project001/static/media/IMG_4165.b17b6d75.jpg",
-    "static/media/S__30769154.409b7a14.jpeg": "/project001/static/media/S__30769154.409b7a14.jpeg",
-    "static/media/abstract-red-and-orange-liquid-background-picjumbo-com.655a4f6c.jpeg": "/project001/static/media/abstract-red-and-orange-liquid-background-picjumbo-com.655a4f6c.jpeg",
-    "static/media/calm-sea-wallpaper-picjumbo-com.a92f2b4f.jpeg": "/project001/static/media/calm-sea-wallpaper-picjumbo-com.a92f2b4f.jpeg",
-    "static/media/pexels-ave-calvar-martinez-4705134-2.863a1f62.jpeg": "/project001/static/media/pexels-ave-calvar-martinez-4705134-2.863a1f62.jpeg",
-    "static/media/pexels-ave-calvar-martinez-4705134-3.4a688119.jpeg": "/project001/static/media/pexels-ave-calvar-martinez-4705134-3.4a688119.jpeg",
-    "static/media/pexels-ave-calvar-martinez-4705134.43c00ddd.jpeg": "/project001/static/media/pexels-ave-calvar-martinez-4705134.43c00ddd.jpeg",
-    "static/media/pexels-pixabay-47349.895c13e1.jpeg": "/project001/static/media/pexels-pixabay-47349.895c13e1.jpeg",
-    "static/media/red-yellow-and-green-colorful-chilli-peppers-picjumbo-com.d630e424.jpeg": "/project001/static/media/red-yellow-and-green-colorful-chilli-peppers-picjumbo-com.d630e424.jpeg"
+    "main.css": "/self-introduction/static/css/main.3a3e7c15.chunk.css",
+    "main.js": "/self-introduction/static/js/main.3a938a47.chunk.js",
+    "main.js.map": "/self-introduction/static/js/main.3a938a47.chunk.js.map",
+    "runtime-main.js": "/self-introduction/static/js/runtime-main.5d6ca363.js",
+    "runtime-main.js.map": "/self-introduction/static/js/runtime-main.5d6ca363.js.map",
+    "static/js/2.b8008cf6.chunk.js": "/self-introduction/static/js/2.b8008cf6.chunk.js",
+    "static/js/2.b8008cf6.chunk.js.map": "/self-introduction/static/js/2.b8008cf6.chunk.js.map",
+    "index.html": "/self-introduction/index.html",
+    "static/css/main.3a3e7c15.chunk.css.map": "/self-introduction/static/css/main.3a3e7c15.chunk.css.map",
+    "static/js/2.b8008cf6.chunk.js.LICENSE.txt": "/self-introduction/static/js/2.b8008cf6.chunk.js.LICENSE.txt",
+    "static/media/abstract-red-and-orange-liquid-background-picjumbo-com.655a4f6c.jpeg": "/self-introduction/static/media/abstract-red-and-orange-liquid-background-picjumbo-com.655a4f6c.jpeg",
+    "static/media/calm-sea-wallpaper-picjumbo-com.a92f2b4f.jpeg": "/self-introduction/static/media/calm-sea-wallpaper-picjumbo-com.a92f2b4f.jpeg",
+    "static/media/pexels-ave-calvar-martinez-4705134-2.863a1f62.jpeg": "/self-introduction/static/media/pexels-ave-calvar-martinez-4705134-2.863a1f62.jpeg",
+    "static/media/pexels-ave-calvar-martinez-4705134-3.4a688119.jpeg": "/self-introduction/static/media/pexels-ave-calvar-martinez-4705134-3.4a688119.jpeg",
+    "static/media/pexels-ave-calvar-martinez-4705134.43c00ddd.jpeg": "/self-introduction/static/media/pexels-ave-calvar-martinez-4705134.43c00ddd.jpeg",
+    "static/media/pexels-pixabay-47349.895c13e1.jpeg": "/self-introduction/static/media/pexels-pixabay-47349.895c13e1.jpeg",
+    "static/media/red-yellow-and-green-colorful-chilli-peppers-picjumbo-com.d630e424.jpeg": "/self-introduction/static/media/red-yellow-and-green-colorful-chilli-peppers-picjumbo-com.d630e424.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.06abeded.js",
-    "static/js/2.3747cde7.chunk.js",
-    "static/css/main.3ff4b750.chunk.css",
-    "static/js/main.50726357.chunk.js"
+    "static/js/runtime-main.5d6ca363.js",
+    "static/js/2.b8008cf6.chunk.js",
+    "static/css/main.3a3e7c15.chunk.css",
+    "static/js/main.3a938a47.chunk.js"
   ]
 }
