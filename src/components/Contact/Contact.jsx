@@ -28,32 +28,25 @@ const Contact = () => {
             <div className="contact-across-line"></div>
             <div className="contact-content">
                 <div className="contact-adress">
-                    <p>fslm5415@gmail.com</p>
+                    <p>subaba199@gmail.com</p>
                 </div>
                 <h2 className="contact-sub-title">and more info...</h2>
                 <ul className="contact-link-list">
-                    <a href="https://twitter.com/yopipo415">
+                    <a href="https://twitter.com/subaba_design">
                         <li className={ classes.root }>
                             <Button>
                                 Twitter
                             </Button>
                         </li>
                     </a>
-                    <a href="https://let-there-be-magic.com/">
+                    <a href="https://subaba-design.com">
                         <li className={ classes.root }>
                             <Button>
                                 Blog
                             </Button>
                         </li>
                     </a>
-                    <a href="https://qiita.com/Yopipo415">
-                        <li className={ classes.root }>
-                            <Button>
-                                Qiita
-                            </Button>
-                        </li>
-                    </a>
-                    <a href="https://github.com/fslm5415">
+                    <a href="https://github.com/subaba-design">
                         <li className={ classes.root }>
                             <Button>
                                 GitHub
