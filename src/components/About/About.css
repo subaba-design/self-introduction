@@ -80,10 +80,11 @@
     position: absolute;
     text-align: right;
     height: 130px;
-    width: auto;
+    width: 100px;
     top: 240px;
     right: 450px;
     z-index: 3;
+    border: 2px solid deeppink;
 }
 
 .about-link-to-person {

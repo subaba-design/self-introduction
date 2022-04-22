@@ -3,7 +3,6 @@ import { makeStyles }  from '@material-ui/core/styles';
 import Button          from '@material-ui/core/Button';
 import Header          from '../Header/Header';
 import BackgroundImage from '../../images/pexels-pixabay-47349.jpeg';
-import Image           from '../../images/S__30769154.jpeg';
 import                      './About.css';
 import                      './About.res.css';
 
@@ -35,7 +34,7 @@ const About = (props) => {
                       実家から自立するために上京。
                       2020年12月にプログラミングの世界を知る。
                   </p>
-                  <img src={ Image } className="about-image"/>
+                  <div className="about-image"></div>
                   <div className="about-link-to-person">
                     <span className="about-link-to-person-sub-title">next...</span>
                     <p className={ classes.root }>

@@ -1,9 +1,4 @@
 @media screen and (max-width: 670px) {
-    .About {
-        height: 800px;
-        background-color: black;
-    }
-
     .about-background {
         height: 900px;
     }
