@@ -1,8 +1,9 @@
-# サイトの名前
+# 名前
 
 ## Against All Odds
 
-『自己紹介サイト[https://fslm5415.github.io/project001/#/]』
+https://subaba-design.github.io/self-introduction
+こちらは自己紹介サイトになります。
 
 # 使用したライブラリ
 
@@ -11,9 +12,3 @@
 * react-router-dom 5.2.0
 * @material-ui/core 4.11.3
 * @material-ui/icons 4.11.2
-
-# 制作者情報
-
-* 深居昌哉
-* 転職活動中
-* fslm5415@gmail.com
