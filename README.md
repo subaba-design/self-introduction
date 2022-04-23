@@ -1,8 +1,9 @@
-# 名前
+# アプリの名前
 
 ## Against All Odds
 
 https://subaba-design.github.io/self-introduction
+</br>
 こちらは自己紹介サイトになります。
 
 # 使用したライブラリ
