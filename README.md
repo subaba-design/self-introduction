@@ -12,3 +12,11 @@ https://subaba-design.github.io/self-introduction
 * react-router-dom 5.2.0
 * @material-ui/core 4.11.3
 * @material-ui/icons 4.11.2
+
+# 制作者情報
+
+* スーババ
+* Blog
+    * https://subaba-design.com
+* Twitter
+    * https://twitter.com/subaba_design
