@@ -23,7 +23,7 @@ const Home = (props) => {
         <div className="Home">
             <Header COLOR='cyan' />  
             <img src={ BackgroundImege } className="home-background" />
-            <h1 className="home-title">SUBABA</h1>
+            <h1 className="home-title">MASAYA FUKAI</h1>
             <p className="home-dot-under-button"></p>
             <ul className="home-nav-list">
                 <li className={ classes.root }>
