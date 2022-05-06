@@ -7,6 +7,7 @@ https://subaba-design.github.io/self-introduction
 </br>
 <br/>
 こちらは自己紹介サイトになります。
+<br/>
 制作者が転職活動時に使用していました。
 <br/>
 <br/>
