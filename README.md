@@ -21,7 +21,7 @@ https://subaba-design.github.io/self-introduction
 * @material-ui/icons 4.11.2
 
 ## 制作期間
-2週間（本格的な着工から最初のデプロイまでとした場合）
+7日
 <br/>
 <br/>
 
