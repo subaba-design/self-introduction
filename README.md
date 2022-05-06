@@ -1,13 +1,15 @@
-# アプリの名前
+# このアプリについて
 
-## Against All Odds
-
+## アプリ名
+<strong>Against All Odds</strong> 
+<br/>
 https://subaba-design.github.io/self-introduction
 </br>
+<br/>
 こちらは自己紹介サイトになります。
 制作者が転職活動時に使用していました。
 
-# 使用したライブラリ
+## 使用したライブラリ
 
 * react 17.0.1
 * react-dom 17.0.1
@@ -15,17 +17,24 @@ https://subaba-design.github.io/self-introduction
 * @material-ui/core 4.11.3
 * @material-ui/icons 4.11.2
 
-# その他詳しい情報
+## 制作期間
+2週間（本格的な着工から最初のデプロイまでとした場合）
+<br/>
+<br/>
+
+## 制作意図・開発過程など
+ブログ記事の方でまとめています。
+<br/>
 https://subaba-design.com/portfolio_tensyoku_javascript
-</br>
-ブログ記事 /
-</br>
-【転職ポートフォリオ】未経験が独学で作った自己紹介サイト｜JavaScript
+<br/>
+<br/>
 
 # 制作者情報
 
-* スーババ
+## スーババ
 * Blog
     * https://subaba-design.com
 * Twitter
     * https://twitter.com/subaba_design
+<br/>
+<br/>
